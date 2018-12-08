@@ -32,7 +32,7 @@ Node * newNode(Data d, Node * parent);
 Tree * newTree();
 Data * insert(Tree *t, Data d);
 Data * search(Tree *t, Data d);
-//void remove(Tree *t, Data d);
+void remove_Node(Tree *t, Data d);
 void sort(Tree *t, Data * d);
 int compare(Tree *t, Tree *copy);
 Tree * clone(Tree *t );

@@ -40,6 +40,8 @@ int main(){
 	assert(bst->insert(bst, (Data){9}) == NULL);
 
 	printf("\n\t\tTest #3: Passed ...\n\n");
+ 
+ 
 
 	printf("\n\t=========Test #4: Sort search===========\n\n");
 
@@ -53,6 +55,8 @@ int main(){
 	}
 
 	printf("\n\t\tTest #4: Passed ...\n\n");
+ 
+ 
 
     printf("\n\t=========Test #5: BST Search===========\n\n");
 	int search_test[] = {5,3,10,4,8,2,1,7,9,6,12,11,13,14};
@@ -68,6 +72,9 @@ int main(){
 	assert(result == NULL);
 
 	printf("\n\t\tTest #6: Passed ...\n\n");
+ 
+
+ 
 
 	printf("\n\t=========Test #7: Clone and Compare Tree===========\n\n");
 
@@ -78,6 +85,8 @@ int main(){
 	assert(compare_result == 1);
 
 	printf("\n\t\tTest #7: Passed ...\n\n");
+ 
+ 
 
 	printf("\n\t=========Test #8: Remove Value not in Tree===========\n\n");
 
@@ -86,6 +95,7 @@ int main(){
 	assert(compare_result == 1);
 
 	printf("\n\t\tTest #8: Passed ...\n\n");
+ 
 
 	printf("\n\t=========Test #9: Remove a Leaf Node ===========\n\n");
 
@@ -183,7 +193,12 @@ int main(){
 	test12->delete(test12);
 	test13->delete(test13);
 	test14->delete(test14);
+ 
+ 
+
 
 	printf("\n\t\tTest #16 Passed: Don't Forget to run valgrind and submit ...\n\n");
+ 
+ 
 	return 0;
 }

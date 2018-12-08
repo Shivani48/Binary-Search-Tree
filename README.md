@@ -3,13 +3,13 @@
 ### PROGRAM 6 README FILE
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
-- Your program must pass all tests to be accepted
+- There are some issues with my memory check so please consider.
 
 ## REFERENCES:
 - List any outside resources used
 
 ## MISCELLANEOUS COMMENTS:
-- Anything you would like the grader to know
+- All my testcases pass but when i run valgrind i dont know what is happening so please consider.
 
 # Assignment Description
 ## Program 6 - Binary Search Trees
